@@ -1,4 +1,4 @@
-import * as api from  '../api'
+import * as api from '../api/index.js';
 
 // Action Creators
 export const getPosts = () => async (dispatch) => {
